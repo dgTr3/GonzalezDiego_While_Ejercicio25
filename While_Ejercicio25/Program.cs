@@ -7,4 +7,18 @@ while (opcion !=3)
     Console.WriteLine("3. Salir");
     Console.WriteLine("opcion: ");
     opcion = int.Parse(Console.ReadLine());
+
+
+    switch (opcion)
+    {
+        case 1:
+            Console.WriteLine("Hola");
+            break;
+        case 2:
+            Console.WriteLine(DateTime.Now);
+            break;
+        case 3:
+            Console.WriteLine("Adios");
+            break;
+    }
 }
